@@ -1,0 +1,23 @@
+.start-game{
+  display:flex;
+  justify-content: space-around;
+}
+
+.dice-box{
+  display:flex;
+  justify-content: space-between;
+
+}
+.dice{
+  border: 2px solid black;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  margin: 10px;
+
+}
+
+.gameplay{
+  display: flex;
+  justify-content: space-between;
+}
