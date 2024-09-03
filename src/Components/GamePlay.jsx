@@ -6,7 +6,7 @@ import RollDice from './RollDice'
 export default function GamePlay() {
   const [selectedNumber, setSelectedNumber]=useState();
   const [currentDice, setCurrentDice] = useState(1);
-  const [score, setScore]=useState(0)
+  const [score, setScore]=useState(0);
   return (
     <div>
       <div className='gameplay'>
@@ -20,6 +20,7 @@ export default function GamePlay() {
         currentDice={currentDice}
         setCurrentDice={setCurrentDice}
         selectedNumber={selectedNumber}
+        setSelectedNumber={setSelectedNumber}
         setScore={setScore}/>
     </div>
     

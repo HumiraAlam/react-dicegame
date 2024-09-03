@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-export default function() {
+export default function (props) {
+  const { score } = props;
   return (
     <div>
-        <h1>0</h1>
-        <p>Total Score</p>
-        
+      <h1>{score}</h1>
+      <p>Total Score</p>
     </div>
-  )
+  );
 }

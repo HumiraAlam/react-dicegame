@@ -16,6 +16,8 @@ function App() {
           isGameStarted={isGameStarted}
           setIsGameStarted={setIsGameStarted}
         />
+        
+        
       )}
     </>
   );
